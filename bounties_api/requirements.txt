@@ -19,3 +19,4 @@
  djangorestframework-queryfields==1.0.0
  pillow
  pyjwt==1.6.4
+eth-account>=0.5.9 # not directly required, pinned by Snyk to avoid a vulnerability
