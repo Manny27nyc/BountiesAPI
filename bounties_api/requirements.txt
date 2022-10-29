@@ -10,7 +10,7 @@
  slackclient==1.1.2
  djangorestframework-filters==0.10.2
  django-cors-headers==2.2.0
- requests==2.18.4
+requests==2.20
  uwsgi==2.0.17
  coverage==4.5.1
  codecov==2.0.15
@@ -19,3 +19,4 @@
  djangorestframework-queryfields==1.0.0
  pillow
  pyjwt==1.6.4
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
