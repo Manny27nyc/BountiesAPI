@@ -1,4 +1,4 @@
- FROM python:3.6
+ FROM python:3.13.0a3
  ENV PYTHONUNBUFFERED 1
  ARG auto_build="true"
  ENV auto_build=$auto_build
